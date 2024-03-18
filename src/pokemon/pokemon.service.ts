@@ -96,7 +96,7 @@ export class PokemonService {
 
     if ( deletedCount === 0)
       throw new BadRequestException(`Pokemon whit id ${id} does not exist`)
-    
+
     return
   }
 
